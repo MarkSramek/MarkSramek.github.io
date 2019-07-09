@@ -29,7 +29,7 @@ blueimp.Gallery.prototype.options.toggleControlsOnSlideClick = false;
 // Initialize the Gallery as video carousel:
 blueimp.Gallery([{
         title: 'Meet The Salties',
-        href: 'https://www.youtube.com/watch?v=VIDEO_ID',
+        href: 'https://www.youtube.com/embed?v=VIDEO_ID',
         type: 'text/html',
         youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
@@ -43,7 +43,7 @@ blueimp.Gallery([{
     },
     {
         title: 'Meet The Salties',
-        href: 'https://www.youtube.com/watch?v=VIDEO_ID',
+        href: 'https://www.youtube.com/embed?v=VIDEO_ID',
         type: 'text/html',
         youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
@@ -62,47 +62,7 @@ blueimp.Gallery([{
     youTubeClickToPlay: false
 });
 
-blueimp.Gallery([{
-        title: 'Meet The Salties',
-        href: 'https://www.youtube.com/watch?v=VIDEO_ID',
-        type: 'text/html',
-        youtube: 'A_ds3KwiO6I',
-        poster: '../images/photos/mark.jpg',
 
-    },
-    {
-        title: 'Meet The Salties',
-        href: '../images/video/salties.mp4',
-        type: 'video/mp4',
-        poster: '../images/photos/mojohouse.jpg',
-
-    },
-    {
-        title: 'Mark and Brian Jam Out',
-        href: '../images/video/MarkandBrian.mp4',
-        type: 'video/mp4',
-        poster: '../images/photos/mojohouse.jpg',
-    },
-    {
-        title: 'Meet The Salties',
-        href: '../images/video/salties.mp4',
-        type: 'video/mp4',
-        poster: '../images/photos/mojohouse.jpg',
-
-    },
-    {
-        title: 'Mark and Brian Jam Out',
-        href: '../images/video/MarkandBrian.mp4',
-        type: 'video/mp4',
-        poster: '../images/photos/mojohouse.jpg',
-    },
-], {
-    container: '#blueimp-video-carousel2',
-    carousel: true,
-    continuous: true,
-    startSlideshow: false,
-    youTubeClickToPlay: false
-});
 
 
 
@@ -110,7 +70,7 @@ blueimp.Gallery([{
 document.getElementById('photoGallery').onclick = function (event) {
     event = event || window.event;
     var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target.parentNode.parentNode,
+        link = target.src ? target.parentNode.parentNode : target.parentNode.parentNode,
         options = {
             index: link,
             event: event
