@@ -10,7 +10,7 @@
  * https://opensource.org/licenses/MIT
  */
 
-.blueimp-gallery > .slides > .slide > .video-content > ..images/icons/ {
+.blueimp-gallery > .slides > .slide > .video-content > img {
   position: absolute;
   top: 0;
   right: 0;
@@ -58,7 +58,7 @@
   opacity: 1;
 }
 .blueimp-gallery > .slides > .slide > .video-playing > a,
-.blueimp-gallery > .slides > .slide > .video-playing > ..images/icons/ {
+.blueimp-gallery > .slides > .slide > .video-playing > img {
   display: none;
 }
 .blueimp-gallery > .slides > .slide > .video-content > video {
