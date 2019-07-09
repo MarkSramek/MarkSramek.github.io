@@ -49,8 +49,8 @@ blueimp.Gallery([{
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: '../images/video/MarkandBrian.mp4',
-        type: 'video/mp4',
+        href: 'https://drive.google.com/uc?export=download&id=1pkH9dI0A2P17uh2heN5IlFKDMAbEZnsw/preview',
+        type: 'text/html',
         poster: '../images/photos/markandbrian.png'
     },
 ], {
