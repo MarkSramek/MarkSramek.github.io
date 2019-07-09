@@ -43,7 +43,7 @@ blueimp.Gallery([{
     },
     {
         title: 'Meet The Salties',
-        href: 'https://www.youtube.com/embed?v=VIDEO_ID',
+        href: 'https://www.youtube.com/watch?v=VIDEO_ID',
         type: 'text/html',
         youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
