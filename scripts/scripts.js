@@ -29,14 +29,15 @@ blueimp.Gallery.prototype.options.toggleControlsOnSlideClick = false;
 // Initialize the Gallery as video carousel:
 blueimp.Gallery([{
         title: 'Meet The Salties',
-        href: 'https://www.dropbox.com/s/lsubk1z1hrg4x5m/performance%20section.mov?dl=0',
-        type: 'video/mov',
+        href: 'https://www.youtube.com/embed?v=VIDEO_ID',
+        type: 'text/html',
+        youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
 
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: 'https://drive.google.com/uc?export=download&id=1pkH9dI0A2P17uh2heN5IlFKDMAbEZnsw/preview',
+        href: '../images/video/MarkandBrian.mp4',
         type: 'video/mp4',
         poster: '../images/photos/markandbrian.png'
     },
@@ -49,8 +50,8 @@ blueimp.Gallery([{
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: 'https://drive.google.com/uc?export=download&id=1pkH9dI0A2P17uh2heN5IlFKDMAbEZnsw/preview',
-        type: 'text/html',
+        href: '../images/video/MarkandBrian.mp4',
+        type: 'video/mp4',
         poster: '../images/photos/markandbrian.png'
     },
 ], {
