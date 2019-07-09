@@ -39,6 +39,20 @@ var shows = [
         Who: "Mark and The Salties",
         Venue: "Big Venue",
     },
+        {
+        Day: "Saturday",
+        Date: "June 15th",
+        Time: "8:00 pm",
+        Who: "Mark Sramek",
+        Venue: "Columbia College Chicago",
+    },
+        {
+        Day: "Saturday",
+        Date: "June 15th",
+        Time: "8:00 pm",
+        Who: "Mark Sramek",
+        Venue: "Columbia College Chicago",
+    },
 
 ];
 
