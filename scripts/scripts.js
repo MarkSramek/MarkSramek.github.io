@@ -29,15 +29,14 @@ blueimp.Gallery.prototype.options.toggleControlsOnSlideClick = false;
 // Initialize the Gallery as video carousel:
 blueimp.Gallery([{
         title: 'Meet The Salties',
-        href: 'https://www.youtube.com/embed?v=VIDEO_ID',
-        type: 'text/html',
-        youtube: 'aVwRZuToM-U',
+        href: 'https://www.dropbox.com/s/lsubk1z1hrg4x5m/performance%20section.mov?dl=0',
+        type: 'video/mov',
         poster: '../images/photos/salties.jpg',
 
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: '../images/video/MarkandBrian.mp4',
+        href: 'https://drive.google.com/uc?export=download&id=1pkH9dI0A2P17uh2heN5IlFKDMAbEZnsw/preview',
         type: 'video/mp4',
         poster: '../images/photos/markandbrian.png'
     },
@@ -76,7 +75,7 @@ document.getElementById('photoGallery').onclick = function (event) {
             event: event
         },
         links = this.getElementsByTagName('a');
-    console.log(target.parentNode.parentNode);
+ 
     blueimp.Gallery(links, options);
 };
 //#endregion
@@ -114,7 +113,7 @@ shows.forEach(element => {
     cardElement.setAttribute('data-aos', 'slide-left');
     cardElement.setAttribute('data-aos-delay', 35 + x);
 
-    console.log(x);
+
     var cardBody = document.createElement('div');
     cardElement.classList.add('card-content');
 
