@@ -1,0 +1,449 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="author" href="humans.txt" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mark Sramek</title>
+    <!--#region Styles-->
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="node_modules/bulma-helpers/css/bulma-helpers.min.css">
+    <link rel="stylesheet" href="node_modules/blueimp-gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="node_modules/blueimp-gallery/css/blueimp-gallery-indicator.css">
+    <link rel="stylesheet" href="node_modules/blueimp-gallery/css/blueimp-gallery-video.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!--#endregion-->
+
+</head>
+
+<body>
+    <!--#region Nav-->
+    <header id="navBar" class="nav-header">
+        <a class="nav-trigger" href="#0">
+            <span id="menuIcon" class="menu-icon"></span>
+        </a>
+    </header>
+
+    <nav>
+        <ul id="nav" class="nav">
+            <li>
+                <a class="navLink" href="#Banner">Home</a>
+            </li>
+            <li>
+                <a class="navLink" href="#About">About</a>
+            </li>
+            <li>
+                <a class="navLink" href="#LiveShows">Live Performances</a>
+            </li>
+            <li>
+                <a class="navLink" href="#Albums">Albums</a>
+            </li>
+            <li>
+                <a class="navLink" href="#Photos">Photos</a>
+            </li>
+            <li>
+                <a class="navLink" href="#Shows">Shows</a>
+            </li>
+            <li>
+                <a class="navLink" href="#Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--#endregion-->
+
+    <!--#region Banner-->
+    <section id="Banner" class="hero banner is-fullheight ">
+        <div class="overlay"></div>
+        <div class="hero-body">
+            <div class="container has-z-3 focus-in-contract">
+                <h1 class="title has-text-white has-text-centered has-banner-title ">
+                    Music By
+                </h1>
+                <h1 class="title has-text-white has-text-centered has-banner-title ">
+                    Mark Sramek
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!--#rendregion-->
+
+    <!--#region About-->
+    <section id="About" class="section has-style-one">
+        <div class="overlay"></div>
+        <div class="container has-text-centered has-z-3">
+            <div class="columns  is-vcentered">
+                <div class="column is-half">
+                    <figure class="image  has-padding-50">
+                        <img src="images/photos/MarkSolo.jpg" alt="" />
+                    </figure>
+                </div>
+                <div class="column is-half has-padding-50 ">
+                    <h1 class="title has-text-white">Genuine. Live. Music.</h1>
+                    <p class="has-text-white is-size-4">
+                        Mark Sramek here… ready to bring you a full rocking band or play unplugged at your next stage or
+                        event!
+                    </p>
+                    <br>
+                    <p class="has-text-white is-size-4">
+                        Music has been a lifelong passion for me. Part of that passion is to share honest music with
+                        audiences, large or small, from auditoriums to backyard barbecues.
+                        Let’s get the good times rollin’! Check me out and give me a shout!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--#endregion-->
+
+    <!--#region Live Performances-->
+    <section id="LiveShows" class="section is-medium has-style-two">
+        <div class="container  has-text-centered">
+            <h2 class="title section-title is-2 has-text-centered has-text-weight-normal has-text-white has-padding-50">
+                Live
+                Performances</h2>
+            <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+            <div id="blueimp-video-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+            </div>
+        </div>
+    </section>
+    <!--#endregion-->
+
+    <!--#region Albums-->
+    <section id="Albums" class="section has-style-one ">
+        <div class="overlay"></div>
+        <div class="container  has-z-3">
+            <h3 class="title has-text-white has-text-centered has-padding-50">Albums</h3>
+
+
+            <div class="container has-z-3 has-text-centered ">
+
+                <div id="album-section" class="columns is-multiline is-centered">
+                    <div class="column is-half">
+                        <div id="AlbumPlayerOne" class="AlbumPlayer">
+                            <iframe class="AlbumObject"
+                                src="https://www.youtube.com/embed/videoseries?list=PLuNGBedlYrYCjueyEJGa5BW0AEcW5GLFm"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+
+                        </div>
+                        <img id="AlbumImageOne" class="AlbumImage" src="images/photos/knucklehead.jpg"
+                            alt="knucklehead" />
+                    </div>
+                    <div class="column is-half">
+                        <div id="AlbumPlayerTwo" class="AlbumPlayer">
+                            <iframe class="AlbumObject"
+                                src="https://www.youtube.com/embed/videoseries?list=OLAK5uy_l77G7gOx-8n5Hvvmzk5C6tT4hbQeWkUa8"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+
+                        </div>
+                        <img id="AlbumImageTwo" class="AlbumImage" src="images/photos/mojohouse.jpg" alt="mojohouse" />
+                    </div>
+
+                </div>
+                <div class="columns is-mobile is-multiline is-centered cdlinks has-padding-50">
+                    <!-- <div class="column">
+                        <a class="badge_icon_link" title="Purchase from Amazon Music" target="_blank"
+                            href="https://www.amazon.com/Mojohouse-Mark-Sramek/dp/B01MQX7R3Y/ref=sr_1_2?keywords=mark+sramek&qid=1557947768&s=gateway&sr=8-2-spell"><span
+                                class="badge_icon amazon">Amazon Music</span></a>
+                    </div> -->
+                    <div class="column">
+                        <a class="badge_icon_link" title="Listen on Apple Music" target="_blank"
+                            href="https://itunes.apple.com/us/artist/mark-sramek/941932081"><span
+                                class="badge_icon apple-music">Apple
+                                Music</span></a>
+                    </div>
+                    <div class="column">
+                        <a class="badge_icon_link" title="Listen on Google Play" target="_blank"
+                            href="https://play.google.com/store/music/artist/Mark_Sramek?id=Aqmmopzsuxssvsff7ylum6nfspu&hl=en_US"><span
+                                class="badge_icon google-play">Google Play</span></a>
+                    </div>
+
+                    <div class="column">
+                        <a class="badge_icon_link" title="Listen on Spotify" target="_blank"
+                            href="https://open.spotify.com/artist/46YuscoLn1M2NeWjxtI54E"><span
+                                class="badge_icon spotify">Spotify</span></a>
+                    </div>
+                    <!-- <div class="column">
+                        <a class="badge_icon_link" title="Listen on Youtube" target="_blank"
+                            href="https://www.youtube.com/channel/UCDUsjBpc5j1XYWFI9hWFDPA"><span
+                                class="badge_icon youtube">Youtube</span></a>
+                    </div> -->
+                    <div class="column">
+                        <a class="badge_icon_link" title="Purchase From CDBaby" target="_blank"
+                            href="https://store.cdbaby.com/cd/marksramek"><span
+                                class="badge_icon cdbaby">CDBaby</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--#endregion-->
+
+    <!--#region Photos-->
+    <section id="Photos" class="section is-medium has-style-two">
+        <div class="container  has-text-centered">
+            <h2 class="title section-title is-2 has-text-centered has-text-weight-normal has-text-white has-padding-50">
+                Photos</h2>
+            <div id="blueimp-gallery" class="blueimp-gallery">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+            <div id="photoGallery" class="photo-container">
+
+                <div class="imageOne">
+                        <a href="images/photos/Band3.png" title="Salties at Westmont BBQ Fest 2019">
+                            <div class="gal-content">
+                                <img src="images/photos/Band3.png" alt="">
+                                <div class="content-overlay"></div>
+                                <div class="content-details fadeIn-bottom">
+                                    <h3 class="content-title">Salties at Westmont BBQ Fest 2019</h3>
+                                </div>
+                            </div>
+                        </a>
+                </div>
+
+                <div class="imageTwo">
+                    <a href="images/photos/Band2.JPG" title="The Salties">
+                        <div class="gal-content">
+                            <img src="images/photos/Band2.JPG" alt="">
+                            <div class="content-overlay"></div>
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">The Salties</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="imageThree">
+                    <a href="images/photos/Train.jpg" title="">
+                        <div class="gal-content">
+                            <img src="images/photos/Train.jpg" alt="">
+                            <div class="content-overlay"></div>
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title"></h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="imageFour">
+                    <!-- <a href="images/photos/Mark.jpg" title="">
+                        <img src="images/photos/Mark.jpg" alt="">
+                    </a> -->
+                    <a href="images/photos/Mark.jpg" title="">
+                        <div class="gal-content">
+                            <img src="images/photos/Mark.jpg" alt="">
+                            <div class="content-overlay"></div>
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title"></h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="imageFive">
+                    <!-- <a href="images/photos/Guitars.jpg" title="">
+                        <img src="images/photos/Guitars.jpg" alt="">
+                    </a> -->
+                    <a href="images/photos/Guitars.jpg" title="">
+                        <div class="gal-content">
+                            <img src="images/photos/Guitars.jpg" alt="">
+                            <div class="content-overlay"></div>
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title"></h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="imageSix">
+                    <!-- <a href="images/photos/SaltCreek.jpg" title="Salt Creek Boys at Rails & Ales Stage, Colorado 2019">
+                        <img src="images/photos/SaltCreek.jpg" alt="">
+                    </a> -->
+                    <a href="images/photos/SaltCreek.jpg" title="Salt Creek Boys at Rails & Ales Stage, Colorado 2019">
+                        <div class="gal-content">
+                            <img src="images/photos/SaltCreek.jpg" alt="">
+                            <div class="content-overlay"></div>
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Salt Creek Boys at Rails & Ales Stage, Colorado 2019</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="imageSeven">
+                    <!-- <a href="images/photos/HillbillyScbers.jpg" title="Salt Creek Boys">
+                        <img src="images/photos/HillbillyScbers.jpg" alt="">
+                    </a> -->
+                    <a href="images/photos/HillbillyScbers.jpg" title="Salt Creek Boys">
+                        <div class="gal-content">
+                            <img src="images/photos/HillbillyScbers.jpg" alt="">
+                            <div class="content-overlay"></div>
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Salt Creek Boys</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--#endregion-->
+
+    <!--#region Archives-->
+    <section class="section is-medium has-style-one ">
+        <div class="overlay"></div>
+        <div class="container  has-z-3">
+            <h3 class="title section-title is-2 has-text-centered has-text-weight-normal has-text-white">From The
+                Archives</h3>
+            <h2 class="subtitle has-text-white has-text-centered is-size-4">
+                Some of My Favorite Bands
+            </h2>
+
+            <div class="columns is-centered is-multiline">
+                <div class="column">
+                    <a href="https://myspace.com/whippetout/photos" target="_blank">
+                        <h3 class="title has-text-centered has-padding-50 has-text-hover-effect">THE GRINNIN' WHIPPET
+                            BAND</h3>
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="https://youtu.be/gLfaTb0bmfg" target="_blank">
+                        <h3 class="title has-text-centered has-padding-50 has-text-hover-effect">THE CRAWDADS</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--#endregion-->
+
+    <!--#region Upcoming Performances-->
+    <section id="Shows" class="section is-medium has-style-two">
+        <h2 class="title section-title is-2 has-text-centered has-text-weight-normal has-text-white">
+            Shows</h2>
+        <div class="container">
+            <div id="Performances-Grid" class="columns is-centered is-multiline">
+            </div>
+        </div>
+    </section>
+    <!--#endregion-->
+
+    <!--#region Contact-->
+    <section id="Contact" class="section is-medium has-style-one ">
+        <div class="overlay"></div>
+        <div class="container  has-z-3">
+            <h3 class="title section-title is-2 has-text-centered has-text-weight-normal has-text-white">Contact for
+                Booking</h3>
+            <!-- <h2 class="subtitle has-text-white has-text-centered has-padding-bottom-50">
+                A simple container to divide your page into , like the one you're currently reading
+            </h2> -->
+            <div class="columns ">
+                <div class="column is-6 is-offset-2-desktop">
+                    <form method="POST" name="contactform" action="https://formspree.io/neilinglese@gmail.com">
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <p class="control is-expanded"><label class="screen-reader-text">Your
+                                            Name</label><input class="input" type="text" placeholder="Name" name="name">
+                                    </p>
+                                </div>
+                                <div class="field">
+                                    <p class="control is-expanded"><label class="screen-reader-text">Your
+                                            Email</label><input class="input" type="email" placeholder="Email" value=""
+                                            name="email"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control"><label class="screen-reader-text">Message</label><textarea
+                                            class="textarea" placeholder="Message" name="message"></textarea></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <div class="control"><button type="submit" value="Submit"
+                                            class="button has-text-weight-bold is-contact-btn">Send
+                                            message</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="column is-6">
+
+                    <p class="content has-text-white is-size-3">Mark Sramek</p>
+                    <div class="media contact-icon">
+                        <div class="media-left"><span class="icon has-text-white fa-lg"><i aria-hidden="true"
+                                    class="fas fa-envelope"></i></span></div><a href="mailto:musikunites@gmail.com"
+                            class="has-text-white is-size-5">Email:
+                            musikunites@gmail.com</a>
+                    </div>
+                    <div class="media contact-icon">
+                        <div class="media-left"><span class="icon has-text-white fa-lg"><i aria-hidden="true"
+                                    class="fas fa-phone" data-fa-transform="rotate-90"></i></span></div>
+                        <p class="has-text-white is-size-5">Text or Voicemail: (708) 203-7258</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--#endregion-->
+
+    <!--#region Footer-->
+    <footer class="footer has-style-two">
+        <div class="content has-text-centered">
+            <p>
+                Special Thanks To:<br>
+                'HOME' page photo by Lara Benefield Photography (Contact on Facebook)'
+                <br>
+                © 2019 All rights reserved.
+            </p>
+        </div>
+    </footer>
+    <!--#endregion-->
+    <script src="node_modules/blueimp-gallery/js/blueimp-helper.js"></script>
+    <script src="node_modules/blueimp-gallery/js/blueimp-gallery.min.js"></script>
+    <script src="node_modules/blueimp-gallery/js/blueimp-gallery-indicator.js"></script>
+    <script src="node_modules/blueimp-gallery/js/blueimp-gallery-video.js"></script>
+    <script src="node_modules/blueimp-gallery/js/blueimp-gallery-youtube.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="scripts/shows.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+
+
+<!--Created By Neil Inglese-->
+<!--www.NeilInglese.com-->
+<!--For Inquires contact NeilInglese@gmail.com-->
+<!--2019 All Rights Reserved-->
+
+</html>

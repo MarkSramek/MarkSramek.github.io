@@ -1,0 +1,26 @@
+/* PROJECT */
+
+	Site Name:   MarkSramek.com
+	Site URL:    https://www.MarkSramek.com
+	Created:     06/2019
+    Last update: 07/2019
+	Standards:   HTML5, CSS3
+	Components:  JavaScript, Bulma CSS, BlueImp Gallery, FontAwesome
+	Software:    Visual Studio Code, Sketch
+	Web Design:  Neil Inglese
+
+/* AUTHOR */
+
+	Name:        Neil Inglese
+	Title:       Freelance Developer
+	Location:    Chicago, IL
+	Site:        http://www.NeilInglese.com
+	Contact:     NeilInglese@gmail.com
+
+/* META */
+
+	Built with: Visual Studio Code, HTML, CSS, JavaScript
+
+/* THANKS */
+
+	To everyone who shares, likes, comments, and contributes!
