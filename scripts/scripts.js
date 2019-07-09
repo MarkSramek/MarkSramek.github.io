@@ -27,19 +27,11 @@ blueimp.Gallery.prototype.options.toggleControlsOnReturn = false;
 blueimp.Gallery.prototype.options.toggleControlsOnSlideClick = false;
 
 // Initialize the Gallery as video carousel:
-blueimp.Gallery([
-    // {
-    //   title: 'Meet The Salties',
-    //   href: 'https://www.youtube.com/embed?listType=playlist&list=VIDEO_ID',
-    //   type: 'text/html',
-    //   youtube: 'PLC77007E23FF423C6',
-    //   poster: '../images/photos/mark.jpg',
-
-    // },
-    {
+blueimp.Gallery([{
         title: 'Meet The Salties',
-        href: '../images/video/salties.mp4',
-        type: 'video/mp4',
+        href: 'https://www.youtube.com/watch?v=VIDEO_ID',
+        type: 'text/html',
+        youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
 
     },
@@ -51,10 +43,10 @@ blueimp.Gallery([
     },
     {
         title: 'Meet The Salties',
-        href: '../images/video/salties.mp4',
-        type: 'video/mp4',
+        href: 'https://www.youtube.com/watch?v=VIDEO_ID',
+        type: 'text/html',
+        youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
-
     },
     {
         title: 'Mark and Brian Jam Out',
@@ -70,13 +62,12 @@ blueimp.Gallery([
     youTubeClickToPlay: false
 });
 
-blueimp.Gallery([
-    {
-      title: 'Meet The Salties',
-      href: 'https://www.youtube.com/watch?v=VIDEO_ID',
-      type: 'text/html',
-      youtube: 'A_ds3KwiO6I',
-      poster: '../images/photos/mark.jpg',
+blueimp.Gallery([{
+        title: 'Meet The Salties',
+        href: 'https://www.youtube.com/watch?v=VIDEO_ID',
+        type: 'text/html',
+        youtube: 'A_ds3KwiO6I',
+        poster: '../images/photos/mark.jpg',
 
     },
     {
@@ -120,9 +111,12 @@ document.getElementById('photoGallery').onclick = function (event) {
     event = event || window.event;
     var target = event.target || event.srcElement,
         link = target.src ? target.parentNode : target.parentNode.parentNode,
-        options = {index: link, event: event},
+        options = {
+            index: link,
+            event: event
+        },
         links = this.getElementsByTagName('a');
-        console.log(target.parentNode.parentNode);
+    console.log(target.parentNode.parentNode);
     blueimp.Gallery(links, options);
 };
 //#endregion
@@ -148,18 +142,18 @@ var fragment = document.createDocumentFragment();
 var columnElement;
 var x = 0;
 shows.forEach(element => {
-    x = x+5;
-    columnElement= document.createElement('div');
+    x = x + 5;
+    columnElement = document.createElement('div');
     columnElement.classList.add('column');
     columnElement.classList.add('is-one-third');
-  
+
 
     var cardElement = document.createElement('div');
     cardElement.classList.add('card');
     cardElement.classList.add('performance-card');
     cardElement.setAttribute('data-aos', 'slide-left');
-    cardElement.setAttribute('data-aos-delay', 35+x);
-    
+    cardElement.setAttribute('data-aos-delay', 35 + x);
+
     console.log(x);
     var cardBody = document.createElement('div');
     cardElement.classList.add('card-content');
@@ -188,7 +182,7 @@ shows.forEach(element => {
     cardElement.appendChild(cardBody);
     columnElement.appendChild(cardElement);
     fragment.appendChild(columnElement);
-   
+
 });
 
 var eventList = document.getElementById('Performances-Grid');
