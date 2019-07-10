@@ -81,7 +81,7 @@ var images = [
     },
     {
         Location: "../images/photos/SaltCreek.jpg",
-        Title: "Salt Creek Boys at Rails & Ales Stage, Colorado 2019",
+        Title: "Salt Creek Boys at Rails & Ales Stage, Colorado",
     },
     {
         Location: "../images/photos/HillbillyScbers.jpg",
