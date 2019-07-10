@@ -28,7 +28,8 @@ var photoFragment = document.createDocumentFragment();
 images.forEach(element =>{
     console.log(element);
     var galleryItem = document.createElement('div');
-    galleryItem.className = 'gallery-item';
+    galleryItem.classList.add('column');
+    galleryItem.classList.add('is-one-third');
     var galleryLink = document.createElement('a');
     galleryLink.href = element.Location;
     galleryLink.title = element.Title;
@@ -66,7 +67,7 @@ images.forEach(element =>{
     photoFragment.appendChild(galleryItem);
 });
 
-photoGallery.appendChild(photoFragment);
+ photoGallery.appendChild(photoFragment);
 //#endregion
 //#region Blue Imp Gallery
 blueimp.Gallery.prototype.options.toggleControlsOnReturn = false;
@@ -113,18 +114,18 @@ blueimp.Gallery([{
 
 
 
-document.getElementById('photoGallery').onclick = function (event) {
-    event = event || window.event;
-    var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode.parentNode : target.parentNode.parentNode,
-        options = {
-            index: link,
-            event: event
-        },
-        links = this.getElementsByTagName('a');
-        console.log(link);
-    blueimp.Gallery(links, options);
-};
+// document.getElementById('photoGallery').onclick = function (event) {
+//     event = event || window.event;
+//     var target = event.target || event.srcElement,
+//         link = target.src ? target.parentNode.parentNode : target.parentNode.parentNode,
+//         options = {
+//             index: link,
+//             event: event
+//         },
+//         links = this.getElementsByTagName('a');
+//         console.log(link);
+//     blueimp.Gallery(links, options);
+// };
 //#endregion
 
 
