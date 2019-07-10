@@ -60,7 +60,7 @@ var shows = [
 var images = [
 
     {
-        Location: "../images/photos/band3.png",
+        Location: "../images/photos/Band3.png",
         Title: "Salties at Westmont BBQ Fest",
     },
     {
