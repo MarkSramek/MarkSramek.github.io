@@ -21,7 +21,53 @@ for (let i = 0; i < navLink.length; i++) {
     });
 }
 //#endregion
+//#region Photo Gallery
+var photoGallery = document.getElementById('photoGallery');
+var photoFragment = document.createDocumentFragment();
 
+images.forEach(element =>{
+    console.log(element);
+    var galleryItem = document.createElement('div');
+    galleryItem.className = 'gallery-item';
+    var galleryLink = document.createElement('a');
+    galleryLink.href = element.Location;
+    galleryLink.title = element.Title;
+
+    galleryItem.appendChild(galleryLink);
+
+    var galContent = document.createElement('div');
+    galContent.className = 'gal-content';
+
+    var galImage = document.createElement('img');
+    galImage.className = 'gallery-image';
+    galImage.src = element.Location;
+    galContent.appendChild(galImage);
+
+
+    if(element.Title != ""){
+        var galOverlay = document.createElement('div');
+        galOverlay.className = 'content-overlay';
+    
+        var galDetails = document.createElement('div');
+        galDetails.className = 'content-details';
+    
+        var galTitle = document.createElement('h3');
+        galTitle.className = 'content-title';
+        galTitle.innerText = element.Title;
+    
+        galDetails.appendChild(galTitle);
+    
+        galContent.appendChild(galOverlay);
+        galContent.appendChild(galDetails);
+    }
+
+    galleryLink.appendChild(galContent);
+
+    photoFragment.appendChild(galleryItem);
+});
+
+photoGallery.appendChild(photoFragment);
+//#endregion
 //#region Blue Imp Gallery
 blueimp.Gallery.prototype.options.toggleControlsOnReturn = false;
 blueimp.Gallery.prototype.options.toggleControlsOnSlideClick = false;
@@ -76,10 +122,13 @@ document.getElementById('photoGallery').onclick = function (event) {
             event: event
         },
         links = this.getElementsByTagName('a');
- 
+        console.log(link);
     blueimp.Gallery(links, options);
 };
 //#endregion
+
+
+
 
 //#region Albums
 var AlbumImageOne = document.getElementById('AlbumImageOne');

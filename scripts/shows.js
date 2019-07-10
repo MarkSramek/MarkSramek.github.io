@@ -39,14 +39,14 @@ var shows = [
         Who: "Mark and The Salties",
         Venue: "Big Venue",
     },
-        {
+    {
         Day: "Saturday",
         Date: "June 15th",
         Time: "8:00 pm",
         Who: "Mark Sramek",
         Venue: "Columbia College Chicago",
     },
-        {
+    {
         Day: "Saturday",
         Date: "June 15th",
         Time: "8:00 pm",
@@ -57,3 +57,35 @@ var shows = [
 ];
 
 
+var images = [
+
+    {
+        Location: "../images/photos/band3.png",
+        Title: "Salties at Westmont BBQ Fest",
+    },
+    {
+        Location: "../images/photos/Band2.JPG",
+        Title: "The Salties",
+    },
+    {
+        Location: "../images/photos/Train.jpg",
+        Title: "",
+    },
+    {
+        Location: "../images/photos/Mark.jpg",
+        Title: "",
+    },
+    {
+        Location: "../images/photos/Guitars.jpg",
+        Title: "",
+    },
+    {
+        Location: "../images/photos/SaltCreek.jpg",
+        Title: "Salt Creek Boys at Rails & Ales Stage, Colorado 2019",
+    },
+    {
+        Location: "../images/photos/HillbillyScbers.jpg",
+        Title: "Salt Creek Boys",
+    },
+
+];
