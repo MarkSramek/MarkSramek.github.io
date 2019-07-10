@@ -75,34 +75,7 @@ blueimp.Gallery.prototype.options.toggleControlsOnReturn = false;
 blueimp.Gallery.prototype.options.toggleControlsOnSlideClick = false;
 
 // Initialize the Gallery as video carousel:
-blueimp.Gallery([{
-        title: 'Meet The Salties',
-        href: 'https://www.youtube.com/watch?v=aVwRZuToM-U',
-        type: 'text/html',
-        youtube: 'aVwRZuToM-U',
-        poster: '../images/photos/salties.jpg',
-
-    },
-    {
-        title: 'Mark and Brian Jam Out',
-        href: '../images/video/MarkandBrian.mp4',
-        type: 'video/mp4',
-        poster: '../images/photos/markandbrian.png'
-    },
-    {
-        title: 'Meet The Salties',
-        href: 'https://www.youtube.com/watch?v=aVwRZuToM-U',
-        type: 'text/html',
-        youtube: 'aVwRZuToM-U',
-        poster: '../images/photos/salties.jpg',
-    },
-    {
-        title: 'Mark and Brian Jam Out',
-        href: '../images/video/MarkandBrian.mp4',
-        type: 'video/mp4',
-        poster: '../images/photos/markandbrian.png'
-    },
-], {
+blueimp.Gallery( performances, {
     container: '#blueimp-video-carousel',
     carousel: true,
     continuous: true,
