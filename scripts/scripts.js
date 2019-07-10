@@ -25,12 +25,13 @@ for (let i = 0; i < navLink.length; i++) {
 var photoGallery = document.getElementById('photoGallery');
 var photoFragment = document.createDocumentFragment();
 
-images.forEach(element =>{
+images.forEach(element => {
     console.log(element);
     var galleryItem = document.createElement('div');
     galleryItem.classList.add('column');
     galleryItem.classList.add('is-one-third');
     var galleryLink = document.createElement('a');
+    galleryLink.classList.add('bpImage');
     galleryLink.href = element.Location;
     galleryLink.title = element.Title;
 
@@ -45,19 +46,19 @@ images.forEach(element =>{
     galContent.appendChild(galImage);
 
 
-    if(element.Title != ""){
+    if (element.Title != "") {
         var galOverlay = document.createElement('div');
         galOverlay.className = 'content-overlay';
-    
+
         var galDetails = document.createElement('div');
         galDetails.className = 'content-details';
-    
+
         var galTitle = document.createElement('h3');
         galTitle.className = 'content-title';
         galTitle.innerText = element.Title;
-    
+
         galDetails.appendChild(galTitle);
-    
+
         galContent.appendChild(galOverlay);
         galContent.appendChild(galDetails);
     }
@@ -75,11 +76,11 @@ blueimp.Gallery.prototype.options.toggleControlsOnSlideClick = false;
 
 // Initialize the Gallery as video carousel:
 blueimp.Gallery([{
-    title: 'Meet The Salties',
-    href: 'https://www.youtube.com/watch?v=aVwRZuToM-U',
-    type: 'text/html',
-    youtube: 'aVwRZuToM-U',
-    poster: '../images/photos/salties.jpg',
+        title: 'Meet The Salties',
+        href: 'https://www.youtube.com/watch?v=aVwRZuToM-U',
+        type: 'text/html',
+        youtube: 'aVwRZuToM-U',
+        poster: '../images/photos/salties.jpg',
 
     },
     {
@@ -116,15 +117,42 @@ blueimp.Gallery([{
 
 document.getElementById('photoGallery').onclick = function (event) {
     event = event || window.event;
+    var parent = getClosest(event.target, '.bpImage');
     var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode.parentNode : target.parentNode.parentNode,
+        link = target.src ? parent : parent,
         options = {
             index: link,
             event: event
         },
         links = this.getElementsByTagName('a');
-        console.log(link);
+    console.log(parent);
     blueimp.Gallery(links, options);
+};
+
+var getClosest = function (elem, selector) {
+
+    // Element.matches() polyfill
+    if (!Element.prototype.matches) {
+        Element.prototype.matches =
+            Element.prototype.matchesSelector ||
+            Element.prototype.mozMatchesSelector ||
+            Element.prototype.msMatchesSelector ||
+            Element.prototype.oMatchesSelector ||
+            Element.prototype.webkitMatchesSelector ||
+            function (s) {
+                var matches = (this.document || this.ownerDocument).querySelectorAll(s),
+                    i = matches.length;
+                while (--i >= 0 && matches.item(i) !== this) {}
+                return i > -1;
+            };
+    }
+
+    // Get the closest matching element
+    for (; elem && elem !== document; elem = elem.parentNode) {
+        if (elem.matches(selector)) return elem;
+    }
+    return null;
+
 };
 //#endregion
 
