@@ -113,8 +113,9 @@ var performances = [
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: '../images/video/MarkandBrian.mp4',
-        type: 'video/mp4',
+        href: 'https://www.youtube.com/watch?v=kVB9pPyOOhA',
+        type: 'text/html',
+        youtube: 'kVB9pPyOOhA',
         poster: '../images/photos/markandbrian.png'
     },
     {
@@ -126,8 +127,9 @@ var performances = [
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: '../images/video/MarkandBrian.mp4',
-        type: 'video/mp4',
+        href: 'https://www.youtube.com/watch?v=kVB9pPyOOhA',
+        type: 'text/html',
+        youtube: 'kVB9pPyOOhA',
         poster: '../images/photos/markandbrian.png'
     },
 
