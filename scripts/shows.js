@@ -12,38 +12,21 @@ var shows = [
         Date: "June 15th",
         Time: "8:00 pm",
         Who: "Mark Sramek",
-        Venue: "Columbia College Chicago",
+        Venue: "Venue",
     },
     {
         Date: "June 16th",
         Time: "7:00 pm",
         Who: "The Salties",
-        Venue: "Union Station",
+        Venue: "Venue",
     },
     {
         Date: "June 17th",
         Time: "5:00 pm",
         Who: "The Salties",
-        Venue: "Blues Club",
+        Venue: "Venue",
     },
-    {
-        Date: "June 18th",
-        Time: "9:00 pm",
-        Who: "Mark and The Salties",
-        Venue: "Big Venue",
-    },
-    {
-        Date: "June 15th",
-        Time: "8:00 pm",
-        Who: "Mark Sramek",
-        Venue: "Columbia College Chicago",
-    },
-    {
-        Date: "June 15th",
-        Time: "8:00 pm",
-        Who: "Mark Sramek",
-        Venue: "Columbia College Chicago",
-    },
+
 
 ];
 
