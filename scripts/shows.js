@@ -103,7 +103,6 @@ var performances = [
     },
     {
         title: 'Meet The Salties',
-        href: 'https://www.youtube.com/embed/aVwRZuToM-U',
         type: 'text/html',
         youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
