@@ -197,7 +197,7 @@
       var videoId = this.getItemProperty(obj, options.youTubeVideoIdProperty)
       if (videoId) {
         if (this.getItemProperty(obj, options.urlProperty) === undefined) {
-          obj[options.urlProperty] = 'https://www.youtube.com/embed/' + videoId
+          obj[options.urlProperty] = 'https://www.youtube.com/embed/' + videoId + '&origin=https://wwww.marksramek.com'
         }
         if (
           this.getItemProperty(obj, options.videoPosterProperty) === undefined
