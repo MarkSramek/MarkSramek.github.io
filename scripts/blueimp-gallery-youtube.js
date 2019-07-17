@@ -62,7 +62,7 @@
     loadAPI: function() {
       var that = this
       var onYouTubeIframeAPIReady = window.onYouTubeIframeAPIReady
-      var apiUrl = 'https://www.youtube.com/iframe_api'
+      var apiUrl = '//www.youtube.com/iframe_api'
       var scriptTags = document.getElementsByTagName('script')
       var i = scriptTags.length
       var scriptTag
@@ -197,13 +197,13 @@
       var videoId = this.getItemProperty(obj, options.youTubeVideoIdProperty)
       if (videoId) {
         if (this.getItemProperty(obj, options.urlProperty) === undefined) {
-          obj[options.urlProperty] = 'https://www.youtube.com/embed/' + videoId + '&origin=https://wwww.marksramek.com'
+          obj[options.urlProperty] = '//www.youtube.com/watch?v=' + videoId
         }
         if (
           this.getItemProperty(obj, options.videoPosterProperty) === undefined
         ) {
           obj[options.videoPosterProperty] =
-            'https://img.youtube.com/vi/' + videoId + '/maxresdefault.jpg'
+            '//img.youtube.com/vi/' + videoId + '/maxresdefault.jpg'
         }
         return this.videoFactory(
           obj,

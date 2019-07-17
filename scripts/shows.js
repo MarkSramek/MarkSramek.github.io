@@ -109,8 +109,9 @@ var performances = [
     },
     {
         title: 'Mark and Brian Jam Out',
+        href: 'https://www.youtube.com/watch?v=kVB9pPyOOhA',
         type: 'text/html',
-        vimeo: '185703171',
+        vimeo: 'kVB9pPyOOhA',
         poster: '../images/photos/markandbrian.png'
     },
 
