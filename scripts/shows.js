@@ -88,7 +88,7 @@ var performances = [
 
     {
         title: 'Meet The Salties',
-        href: 'https://www.youtube.com/watch?v=aVwRZuToM-U',
+        href: 'https://www.youtube.com/embed/aVwRZuToM-U',
         type: 'text/html',
         youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
@@ -96,21 +96,21 @@ var performances = [
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: 'https://www.youtube.com/watch?v=kVB9pPyOOhA',
+        href: 'https://www.youtube.com/embed/kVB9pPyOOhA',
         type: 'text/html',
         youtube: 'kVB9pPyOOhA',
         poster: '../images/photos/markandbrian.png'
     },
     {
         title: 'Meet The Salties',
-        href: 'https://www.youtube.com/watch?v=aVwRZuToM-U',
+        href: 'https://www.youtube.com/embed/aVwRZuToM-U',
         type: 'text/html',
         youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: 'https://www.youtube.com/watch?v=kVB9pPyOOhA',
+        href: 'https://www.youtube.com/embed/kVB9pPyOOhA',
         type: 'text/html',
         youtube: 'kVB9pPyOOhA',
         poster: '../images/photos/markandbrian.png'
