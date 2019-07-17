@@ -9,7 +9,7 @@
 var shows = [
 
     {
-        Date: "June 15th",
+        Date: "6/12/19h",
         Time: "8:00 pm",
         Who: "Mark Sramek",
         Venue: "Venue",
@@ -20,12 +20,7 @@ var shows = [
         Who: "The Salties",
         Venue: "Venue",
     },
-    {
-        Date: "June 17th",
-        Time: "5:00 pm",
-        Who: "The Salties",
-        Venue: "Venue",
-    },
+
 
 
 ];
