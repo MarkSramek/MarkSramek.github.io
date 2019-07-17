@@ -79,7 +79,6 @@ var images = [
 //if you are adding a video you can remove the duplicates
 // {
 //   title: 'Name of Video here',
-//   href: 'You Tube Link ex: https://www.youtube.com/watch?v=aVwRZuToM-U',
 //   type: 'text/html',
 //   youtube: 'the id of the video after the = in the video link ex: aVwRZuToM-U',
 //   poster: 'location to the photo put it in images/photo folder and same rules apply as the photo gallery../images/photos/salties.jpg',
