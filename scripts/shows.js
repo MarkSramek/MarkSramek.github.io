@@ -88,7 +88,6 @@ var performances = [
 
     {
         title: 'Meet The Salties',
-        href: 'https://www.youtube.com/embed/aVwRZuToM-U',
         type: 'text/html',
         youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
@@ -96,7 +95,6 @@ var performances = [
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: 'https://www.youtube.com/v/kVB9pPyOOhA',
         type: 'text/html',
         youtube: 'kVB9pPyOOhA',
         poster: '../images/photos/markandbrian.png'
@@ -109,9 +107,8 @@ var performances = [
     },
     {
         title: 'Mark and Brian Jam Out',
-        href: 'https://www.youtube.com/watch?v=kVB9pPyOOhA',
         type: 'text/html',
-        vimeo: 'kVB9pPyOOhA',
+        youtube: 'kVB9pPyOOhA',
         poster: '../images/photos/markandbrian.png'
     },
 
