@@ -284,10 +284,21 @@ body {
     display: block;
     width: 100%;
     height: 100%;
+
     object-fit: cover;
     transition: transform 400ms ease-out;
 }
+@media screen and (max-width: 736px) {
+    .gallery-image {
+       height: 339px;
+    }
+}
 
+@media screen and (max-width: 480px) {
+    .gallery-image {
+        height: 204px;
+    }
+}
 .gallery-image:hover {
     transform: scale(1.15);
 }
