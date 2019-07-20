@@ -9,10 +9,10 @@
 var shows = [
 
     {
-        Date: "6/12/19h",
-        Time: "8:00 pm",
-        Who: "Mark Sramek",
-        Venue: "Venue",
+        Date: "Sat. August 3rd",
+        Time: "",
+        Who: "The Salties",
+        Venue: "Private Party",
     },
     {
         Date: "June 16th",
