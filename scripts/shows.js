@@ -9,13 +9,13 @@
 var shows = [
 
     {
-        Date: "Sat. August 3rd",
+        Date: "Sat August 3rd",
         Time: "",
         Who: "The Salties",
         Venue: "Private Party",
     },
     {
-        Date: "Sun. August 25th",
+        Date: "Sun August 25th",
         Time: "10:00-12:00 AM",
         Who: "Mark with 'Roger & Friends'",
         Venue: "Glen Ellyn Festival of the Arts",
@@ -24,7 +24,7 @@ var shows = [
         Date: "3rd Friday of the Month",
         Time: "8:00-11:00",
         Who:  "Salties Host Open Mic",
-        Venue: "Joe's Saloon, 9220 47th St., Brookfield",
+        Venue: "Joe's Saloon, 9220 47th St, Brookfield",
     },
 
 
