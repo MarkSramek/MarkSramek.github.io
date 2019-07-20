@@ -20,7 +20,12 @@ var shows = [
         Who: "The Salties",
         Venue: "Venue",
     },
-
+    {
+        Date: "3rd Friday of the Month",
+        Time: "8:00-11:00",
+        Who:  "Salties Host Open Mic",
+        Venue: "Joe's Saloon, 9220 47th St., Brookfield",
+    },
 
 
 ];
