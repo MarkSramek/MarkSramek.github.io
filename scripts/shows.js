@@ -15,10 +15,12 @@ var shows = [
         Venue: "Private Party",
     },
     {
-        Date: "June 16th",
-        Time: "7:00 pm",
-        Who: "The Salties",
-        Venue: "Venue",
+        Date: "Sun. August 25th",
+        Time: "10:00-12:00 AM",
+        Who: "Mark with 'Roger & Friends'",
+        Venue: "Glen Ellyn Festival of the Arts
+                645 Lenox Rd.
+                Glen Ellyn",
     },
     {
         Date: "3rd Friday of the Month",
