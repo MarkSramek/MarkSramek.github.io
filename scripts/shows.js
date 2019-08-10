@@ -37,7 +37,7 @@ var shows = [
         Time: "8:00-11:00 p.m.",
         Who:  "Crawdads Reunion Show",
         Venue: "Brixie's - 9526 Ogden, Brookfield",
-    },
+    
         
         
     ];
