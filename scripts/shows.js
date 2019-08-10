@@ -26,9 +26,16 @@ var shows = [
         Who:  "Salties Host Open Mic",
         Venue: "Joe's Saloon, 9220 47th St, Brookfield",
     },
-
-
-];
+    {
+        Date: "Sat. Aug. 10th",
+        Time: "5-9:00 p.m.",
+        Who:  "Mark, Ken & Jim Acoustic",
+        Venue: "The Wild Child's Tavern and Grill, Twin Lakes, Wisconsin",
+    },
+        
+        
+        
+    ];
 
 
 //TEMPLATE
