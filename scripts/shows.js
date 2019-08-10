@@ -32,7 +32,12 @@ var shows = [
         Who:  "Mark, Ken & Jim Acoustic",
         Venue: "The Wild Child's Tavern and Grill, Twin Lakes, Wisconsin",
     },
-        
+    {   
+        Date: "Sat. Sept. 14th",
+        Time: "8:00-11:00 p.m.",
+        Who:  "Crawdads Reunion Show",
+        Venue: "Brixie's - 9526 Ogden, Brookfield",
+    },
         
         
     ];
