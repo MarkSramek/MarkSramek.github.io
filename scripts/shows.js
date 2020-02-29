@@ -43,6 +43,7 @@ var shows = [
         Time: "9-1",
         Who:  "The Salties",
         Venue: "Cuzin's in Tinley Park",
+    },
   ];
 
 
