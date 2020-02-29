@@ -9,19 +9,13 @@
 var shows = [
 
     {
-        Date: "Sat August 3rd",
-        Time: "",
-        Who: "The Salties",
-        Venue: "Private Party",
-    },
-    {
         Date: "Sun August 25th",
         Time: "10:00-12:00 AM",
         Who: "Mark with 'Roger & Friends'",
         Venue: "Glen Ellyn Festival of the Arts",
     },
     {
-        Date: "3rd Friday of the Month",
+        Date: "3rd Friday EVERY MONTH",
         Time: "8:00-11:00",
         Who:  "Salties Host Open Mic",
         Venue: "Joe's Saloon, 9220 47th St, Brookfield",
@@ -43,6 +37,30 @@ var shows = [
         Time: "9-1",
         Who:  "The Salties",
         Venue: "Cuzin's in Tinley Park",
+    },
+    {
+        Date: "Sat. Feb. 23rd",
+        Time: "9-12",
+        Who:  "The Salties",
+        Venue: "Brixie's in Brookfield",
+    },
+    {
+        Date: "Fri. March 20th",
+        Time: "8:00 p.m.",
+        Who: "The Salties AND The Bank Notes",
+        Venue: "The Uptown in Westmont",
+    },
+    {
+        Date: "Sat. May 9th",
+        Time: "8:00 p.m.",
+        Who: "The Salties",
+        Venue: "Salernos in Hodgkins",
+    },
+    {
+        Date: "Sat. May 23rd",
+        Time: "4:00",
+        Who: "The Salties",
+        Venue: "Westmont Lions Club Red White and Blue BBQ",
     },
   ];
 
