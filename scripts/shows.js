@@ -39,10 +39,10 @@ var shows = [
         Venue: "Brixie's - 9526 Ogden, Brookfield",
     },
     {
-        Date: "Sat. Nov. 23rd
-        Time: "9-1
-        Who:  "The Salties"
-        Venue: "Cuzin's in Tinley Park"
+        Date: "Sat. Nov. 23rd",
+        Time: "9-1",
+        Who:  "The Salties",
+        Venue: "Cuzin's in Tinley Park",
     },
     ];
 
