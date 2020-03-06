@@ -51,12 +51,6 @@ var shows = [
         Venue: "The Uptown in Westmont",
     },
     {
-        Date: "Sat. May 9th",
-        Time: "8:00 p.m.",
-        Who: "The Salties",
-        Venue: "Salernos in Hodgkins",
-    },
-    {
         Date: "Sat. May 23rd",
         Time: "4:00",
         Who: "The Salties",
