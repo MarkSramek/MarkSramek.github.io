@@ -70,14 +70,6 @@ var shows = [
 var images = [
 
     {
-        Location: "../images/photos/Band3.png",
-        Title: "Salties at Westmont BBQ Fest",
-    },
-    {
-        Location: "../images/photos/Band2.JPG",
-        Title: "The Salties",
-    },
-    {
         Location: "../images/photos/Train.jpg",
         Title: "",
     },
@@ -86,16 +78,20 @@ var images = [
         Title: "",
     },
     {
-        Location: "../images/photos/Guitars.jpg",
-        Title: "",
+        Location: "../images/photos/HillbillyScbers.jpg",
+        Title: "Salt Creek Boys",
     },
     {
         Location: "../images/photos/SaltCreek.jpg",
         Title: "Salt Creek Boys at Rails & Ales Stage, Colorado",
     },
     {
-        Location: "../images/photos/HillbillyScbers.jpg",
-        Title: "Salt Creek Boys",
+        Location: "../images/photos/Band3.png",
+        Title: "Salties at Westmont BBQ Fest",
+    },
+    {
+        Location: "../images/photos/Band2.JPG",
+        Title: "The Salties",
     },
 
 ];
@@ -114,29 +110,30 @@ var images = [
 var performances = [
 
     {
-        title: 'Meet The Salties',
+        title: 'Marks\'s Collection of Shows',
         type: 'text/html',
-        youtube: 'aVwRZuToM-U',
-        poster: '../images/photos/salties.jpg',
+        youtube: 'LRTJTLajxkI',
+        poster: '../images/photos/markandthesalties.png'
 
     },
     {
-        title: 'Mark and Brian Jam Out',
-        type: 'text/html',
-        youtube: 'kVB9pPyOOhA',
-        poster: '../images/photos/markandbrian.png'
-    },
-    {
         title: 'Meet The Salties',
         type: 'text/html',
         youtube: 'aVwRZuToM-U',
         poster: '../images/photos/salties.jpg',
     },
     {
-        title: 'Mark and Brian Jam Out',
+        title: 'Marks\'s Collection of Shows',
         type: 'text/html',
-        youtube: 'kVB9pPyOOhA',
-        poster: '../images/photos/markandbrian.png'
+        youtube: 'LRTJTLajxkI',
+        poster: '../images/photos/markandthesalties.png'
+
+    },
+    {
+        title: 'Meet The Salties',
+        type: 'text/html',
+        youtube: 'aVwRZuToM-U',
+        poster: '../images/photos/salties.jpg',
     },
 
 ];
