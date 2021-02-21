@@ -113,7 +113,7 @@ var performances = [
         title: 'Marks\'s Collection of Shows',
         type: 'text/html',
         youtube: 'LRTJTLajxkI',
-        poster: '../images/photos/markandthesalties.png'
+        poster: '../images/photos/markherecomesthesun.png'
 
     },
     {
@@ -126,7 +126,7 @@ var performances = [
         title: 'Marks\'s Collection of Shows',
         type: 'text/html',
         youtube: 'LRTJTLajxkI',
-        poster: '../images/photos/markandthesalties.png'
+        poster: '../images/photos/markherecomesthesun.png'
 
     },
     {
