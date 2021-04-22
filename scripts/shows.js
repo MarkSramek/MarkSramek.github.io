@@ -11,42 +11,6 @@
         Who:  "Salties Host Open Mic",
         Venue: "Joe's Saloon, 9220 47th St, Brookfield",
     },
-    {
-        Date: "Sat. Aug. 10th",
-        Time: "5-9:00 p.m.",
-        Who:  "Mark, Ken & Jim Acoustic",
-        Venue: "The Wild Child's Tavern and Grill, Twin Lakes, Wisconsin",
-    },
-    {   
-        Date: "Sat. Sept. 14th",
-        Time: "8:00-11:00 p.m.",
-        Who:  "Crawdads Reunion Show",
-        Venue: "Brixie's - 9526 Ogden, Brookfield",
-    },
-    {
-        Date: "Sat. Nov. 23rd",
-        Time: "9-1",
-        Who:  "The Salties",
-        Venue: "Cuzin's in Tinley Park",
-    },
-    {
-        Date: "Sat. Feb. 23rd",
-        Time: "9-12",
-        Who:  "The Salties",
-        Venue: "Brixie's in Brookfield",
-    },
-    {
-        Date: "Fri. March 20th",
-        Time: "8:00 p.m.",
-        Who: "The Salties AND The Bank Notes",
-        Venue: "The Uptown in Westmont",
-    },
-    {
-        Date: "Sat. May 23rd",
-        Time: "4:00",
-        Who: "The Salties",
-        Venue: "Westmont Lions Club Red White and Blue BBQ",
-    },
   ];
 
 
