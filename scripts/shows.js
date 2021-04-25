@@ -5,6 +5,8 @@
 //     Who: "Who is playing ex: Mark Sramek",
 //     Venue: "Where ex: Columbia College Chicago",
 // },
+var shows = [
+    
     {
         Date: "June 20",
         Time: "8:00-11:00",
