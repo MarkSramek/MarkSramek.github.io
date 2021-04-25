@@ -8,11 +8,24 @@
 var shows = [
     
     {
-        Date: "June 20",
-        Time: "8:00-11:00",
+        Date: "May 29, 30 & June 5, 6",
+        Time: "11am-2pm",
+        Who:  "Salt Creek Boys",
+        Venue: "Mary's Morning Mixup, 9110 Broadway, Brookfield, IL",
+    },
+    {
+        Date: "3rd Friday of every month starting June 18th",
+        Time: "8:00pm-11:00pm",
         Who:  "Salties Host Open Mic",
         Venue: "Joe's Saloon, 9220 47th St, Brookfield",
     },
+    {
+        Date: "July 24",
+        Time: "7pm-10pm",
+        Who:  "Mark Sramek with Mardi & Arthur",
+        Venue: "Bad Dad Brewing Co, 407 W. Washington St., Fairmont, Indiana",
+    },
+    
   ];
 
 
