@@ -8,6 +8,18 @@
 var shows = [
     
     {
+        Date: "Jan. 11, 2022",
+        Time: "7pm-11pm",
+        Who:  "Taylor King Jam Night - not in the band, but I sometimes sit in...fun place to hang qnd listen to some great music...stop by and say hi!",
+        Venue: "Oceanview Inn & Sports Pub, MM 84.5 Islamorada, Fla.",
+    },
+    {
+        Date: "Aug. 12, Oct. 2, Dec. 9",
+        Time: "6:30pm-9:30pm",
+        Who:  "Mark & Ken",
+        Venue: "The Elm restaurant, 23 W. Harris, LaGrange, IL",
+    },
+    {
         Date: "May 29, 30 & June 5, 6",
         Time: "11am-2pm",
         Who:  "Salt Creek Boys",
