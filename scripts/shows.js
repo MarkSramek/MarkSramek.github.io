@@ -10,7 +10,7 @@ var shows = [
     {
         Date: "Jan. 11, 2022",
         Time: "7pm-11pm",
-        Who:  "Taylor King Jam Night - not in the band, but I sometimes sit in...fun place to hang qnd listen to some great music...stop by and say hi!",
+        Who:  "Taylor King Jam Night - not in the band, but I sometimes sit in...fun place to hang and listen to some great music...stop by and say hi!",
         Venue: "Oceanview Inn & Sports Pub, MM 84.5 Islamorada, Fla.",
     },
     {
