@@ -42,20 +42,12 @@ var images = [
         Title: "",
     },
     {
-        Location: "../images/photos/HillbillyScbers.jpg",
-        Title: "Salt Creek Boys",
-    },
-    {
         Location: "../images/photos/SaltCreek.jpg",
         Title: "Salt Creek Boys at Rails & Ales Stage, Colorado",
     },
     {
         Location: "../images/photos/Band3.png",
         Title: "Salties at Westmont BBQ Fest",
-    },
-    {
-        Location: "../images/photos/Band2.JPG",
-        Title: "The Salties",
     },
 
 ];
