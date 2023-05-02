@@ -15,6 +15,9 @@ var shows = [
     },
     {
         Date: "For current shows please access Mark Sramek on Facebook"
+        Time: " "
+        Who: " "
+        Venue: " "
     },
        
   ];
