@@ -14,10 +14,10 @@ var shows = [
         Venue: "Joe's Saloon, 9220 47th St, Brookfield",
     },
     {
-        Date: "For current shows"
-        Time: "please access"
-        Who: "Mark Sramek on Facebook"
-        Venue: "Thanks!"
+        Date: "For current shows",
+        Time: "please access",
+        Who: "Mark Sramek on Facebook",
+        Venue: "Thanks!",
     },
        
   ];
