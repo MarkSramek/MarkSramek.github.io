@@ -6,8 +6,8 @@
 //     Venue: "Where ex: Columbia College Chicago",
 // },
 var shows = [
-  
-    {
+   
+  {
         Date: "3rd Friday of every month",
         Time: "8:00pm-11:00pm",
         Who:  "Mark Sramek & Co. Host Open Mic",
@@ -65,7 +65,12 @@ var images = [
 // },
 var performances = [
 
-    {
+  {     title: 'The Good Nights''
+        type:  text/html',
+        youtube: 'OKxroNCOPBA',
+   
+  },
+  {
         title: 'Marks\'s Collection of Shows',
         type: 'text/html',
         youtube: 'LRTJTLajxkI',
