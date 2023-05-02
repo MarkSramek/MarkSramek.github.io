@@ -81,23 +81,11 @@ var performances = [
 
     },
     {
-        title: 'Meet The Salties',
-        type: 'text/html',
-        youtube: 'aVwRZuToM-U',
-        poster: '../images/photos/salties.jpg',
-    },
-    {
         title: 'Marks\'s Collection of Shows',
         type: 'text/html',
         youtube: 'LRTJTLajxkI',
         poster: '../images/photos/markherecomesthesun.png'
 
-    },
-    {
-        title: 'Meet The Salties',
-        type: 'text/html',
-        youtube: 'aVwRZuToM-U',
-        poster: '../images/photos/salties.jpg',
     },
 
 ];
