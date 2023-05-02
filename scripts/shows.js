@@ -8,10 +8,13 @@
 var shows = [
   
     {
-        Date: "3rd Friday of every month starting June 18th",
+        Date: "3rd Friday of every month",
         Time: "8:00pm-11:00pm",
         Who:  "Mark Sramek & Co. Host Open Mic",
         Venue: "Joe's Saloon, 9220 47th St, Brookfield",
+    },
+    {
+        Date: "For current shows please access Mark Sramek on Facebook"
     },
        
   ];
