@@ -65,7 +65,8 @@ var images = [
 // },
 var performances = [
 
-  {     title: 'The Good Nights''
+  {     
+        title: 'The Good Nights''
         type:  text/html',
         youtube: 'OKxroNCOPBA',
    
